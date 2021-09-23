@@ -1,5 +1,5 @@
 import React from "react";
-import withClicker from "./HOC/withClicker";
+// import withClicker from "./HOC/withClicker";
 
 function HoverClick({ count, increment }) {
     return (
@@ -9,4 +9,5 @@ function HoverClick({ count, increment }) {
     )
 }
 
-export default withClicker(HoverClick)
+// export default withClicker(HoverClick)
+export default HoverClick;

@@ -1,5 +1,5 @@
 import React from "react";
-import withClicker from "./HOC/withClicker";
+// import withClicker from "./HOC/withClicker";
 
 function ClickCounter({ count, increment }) {
     return (
@@ -9,4 +9,5 @@ function ClickCounter({ count, increment }) {
     )
 }
 
-export default withClicker(ClickCounter);
+// export default withClicker(ClickCounter);
+export default ClickCounter;
